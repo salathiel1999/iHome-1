@@ -1,0 +1,23 @@
+{
+  "name": "practica7",
+  "version": "1.0.0",
+  "description": "pruebas unitarias",
+  "main": "index.js",
+  "scripts": {
+    "build": "asb",
+    "test": "asp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Near-University-Tec-de-Tlaxiaco/exp.git"
+  },
+  "author": "duilio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Near-University-Tec-de-Tlaxiaco/exp/issues"
+  },
+  "homepage": "https://github.com/Near-University-Tec-de-Tlaxiaco/exp#readme",
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
