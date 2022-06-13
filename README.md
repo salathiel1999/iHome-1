@@ -1,5 +1,6 @@
 # iHome
 iHome con tecnología web 3.0!
+iHome es una aplicación que basa su existencia en la compraventa de cualquier tipo de bien, inmueble, terreno. Teniendo como característica que no toma mucho tiempo realizar una publicación de venta y así como búsquedas filtradas para que los usuarios puedan encontrar la mejor opción de compra.
 ***
 ## REQUISITOS 
 * Node 12.0 o una version superior
