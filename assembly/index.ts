@@ -50,6 +50,17 @@ export function getPublicaciones(): Publicacion[]{
     }
     return data;
 }
+export function buscarPublicacion(SearchP: String): Publicacion{
+    const data = new Array<Publicacion>(AuxPublicacion);
+    for(let i=0;i<AuxPublicacion;i++){
+        data[i]=Todas_Publicaciones[i];
+        if(data[i].id_publicacion==SearchP){
+            return Todas_Publicaciones[i];
+        }    
+    }
+    logging.log("No existe el usuario")
+    return Todas_Publicaciones[AuxPublicacion+2];
+}
 
 export function setVenta(id_venta: String,detalle_venta: String):Venta{
     const NewVenta = new Venta(id_venta,detalle_venta);
@@ -65,4 +76,15 @@ export function getVenta(): Venta[]{
         logging.log(i);
     }
     return data;
+}
+export function buscarVenta(SearchV: String): Venta{
+    const data = new Array<Venta>(AuxVenta);
+    for(let i=0;i<AuxVenta;i++){
+        data[i]=Todas_Ventas[i];
+        if(data[i].id_venta==SearchV){
+            return Todas_Ventas[i];
+        }    
+    }
+    logging.log("No existe el usuario")
+    return Todas_Ventas[AuxVenta+2];
 }
