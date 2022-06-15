@@ -14,7 +14,7 @@ iHome es una aplicación que basa su existencia en la compraventa de cualquier t
 2. Ejecutamos ```yarn install```
 3. Iniciamos sesion de la cuenta de near con ayuda de : ```near login```
 4. Procedemos a compilar con ```yarn asb```
-5. Posteriormente con el comando ```near deploy --accountId (CUENTA TESTNET) --wasmFile build/release/contrato.wasm``` se implemneta
+5. Posteriormente con el comando ```near deploy --accountId (cuenta de near testnet) --wasmFile build/release/iHome.wasm``` se implemneta
 ***
 ## Llamado de métodos
 * Usuarios
