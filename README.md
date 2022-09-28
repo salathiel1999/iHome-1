@@ -17,7 +17,7 @@ iHome es una aplicación que basa su existencia en la compraventa de cualquier t
 5. Posteriormente con el comando ```near deploy --accountId (cuenta de near testnet) --wasmFile build/release/iHome.wasm``` se implemneta
 ***
 ## Llamado de métodos
-* Usuarios
+ Usuarios
 ```
 near call (cuenta hijo o subcuenta) setUsuario '{"id_publicacion": "0", " Nombre" :  "Duilio"}' --accountId (cuenta de near testnet)
 ```
