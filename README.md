@@ -21,15 +21,15 @@ iHome es una aplicación que basa su existencia en la compraventa de cualquier t
 ```
 near call (cuenta hijo o subcuenta) setUsuario '{"id_publicacion": "0", " Nombre" :  "Duilio"}' --accountId (cuenta de near testnet)
 ```
-* Ver usuarios
+ Ver usuarios
 ```
  near call (cuenta hijo o subcuenta) getUsuario --accountId (cuenta de near testnet)
  ```
-* Publicacion
+ Publicacion
 ```
 near call (cuenta hijo o subcuenta) setPublicacion '{"id_publicacion": "0", " detalle_publicacion" : "Bonita casa, dos cuartos, acabado en marmol, cajon de estacionamiento",  "imagen" :"Foto.png", "direccion" : "Almendros #824 San Felipe del Agua", "user_vendedor": "Duilio"}' --accountId (cuenta de near testnet)
 ```
-* Ver publicaciones
+ Ver publicaciones
 ```
  near call (cuenta hijo o subcuenta) getPublicacion --accountId (cuenta de near testnet)
  ```
